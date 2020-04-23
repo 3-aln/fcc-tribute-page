@@ -1,31 +1,101 @@
-h1 {
-    color: black;
+body {
+    background-color: #323232;
+    margin: 0px;
+    /* padding-bottom: 40px; */
 }
 
-.center-pic {
+header {
+    background-color: #4d4d4d;
+    padding: 0px;
+}
+
+footer {
+    background-color: #4d4d4d;
+    margin-top: 40px;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+p {
+    color: rgb(219, 219, 219);
+    font-family: "Work Sans";
+}
+
+h2 {
+    font-family: "Work Sans";
+    /* font-weight: normal; */
+    color: rgb(149, 174, 233);
+    text-align: center;
+}
+
+.pic {
     display: block;
     margin: auto;
+    max-width: 100%;
+    height: auto;
+
+    border-color: rgb(219, 219, 219);
+    border-width: 5px;
+    border-style: solid;
+}
+
+.blue-text {
+    color: rgb(149, 174, 233);
+}
+
+.normal-text{
+    color: rgb(219, 219, 219);
+    font-family: "Work Sans";
 }
 
 #title {
+    color: #789BEC;
     text-align: center;
     font-family: "Big Shoulders Display";
     font-weight: normal;
     font-size: 80px;
+
+    margin-top: 0px;
     margin-bottom: 0;
+    padding-top: 20px;
 }
 
-#tribute-info {
+#subtitle {
     text-align: center;
     margin-top: 0;
+    padding-bottom: 20px;
     font-family: "Work Sans";
 }
 
-#porter {
-    width: 70%;
+#img-div {
+    background-color: rgb(45, 69, 105);
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 #img-caption {
+    text-align: center;
+    font-family: "Work Sans";
+}
+
+#about {
+    margin: auto;
+    /* min-width: 80%; */
+    max-width: 60%;
+}
+
+#discography {
+    margin: auto;
+    width: 320px;
+}
+
+#learn-more {
+    text-align: center;
+}
+#tribute-link {
+    color: rgb(149, 174, 233);
+    display: block;
     text-align: center;
     font-family: "Work Sans";
 }
